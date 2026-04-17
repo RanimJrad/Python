@@ -5,11 +5,9 @@ import Home from './pages/Home'
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-wedding-cream">
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </Router>
   )
 }
